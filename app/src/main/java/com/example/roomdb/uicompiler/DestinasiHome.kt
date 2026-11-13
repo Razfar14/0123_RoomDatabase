@@ -1,8 +1,8 @@
 package com.example.roomdb.uicompiler
 
-object DestinasiHome {
-    object DestinasiNavigasi {
-        override val route: String = "home"
-        override val titleRes: Int = R.string.app_name
-    }
+import com.example.roomdb.R
+
+object DestinasiHome : DestinasiNavigasi {
+    override val route: String = "home"
+    override val titleRes: Int = R.string.app_name
 }
