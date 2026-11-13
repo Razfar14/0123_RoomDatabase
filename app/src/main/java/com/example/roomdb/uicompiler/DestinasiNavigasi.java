@@ -1,4 +1,13 @@
 package com.example.roomdb.uicompiler;
+interface  DestinasiNavigai{
+    /**
+     * Nama unik untuk menentukan jalur untuk composable
+     */
+    val route: String
 
-public interface DestinasiNavigasi {
+    /**
+     * String resource id yang berisi judul yang akan ditampilkan di layar halaman
+     */
+    val titleRes: Int
+}
 }
